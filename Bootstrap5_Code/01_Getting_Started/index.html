@@ -1,51 +1,92 @@
 <!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="app.css">
-    <title>Hello, world!</title>
-</head>
- 
-<body>
-    <h1>Hello, world!</h1>
 
-    <div class="card" style="width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-        </div>
-    </div>
-
-    <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Dropdown button
+    <title>Museum of Candy</title>
+  </head>
+  
+  <body>
+    <nav  id="mainNavbar" class="navbar navbar-expand-md navbar-light fixed-top py-0" >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">CANDY</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks" aria-controls="navLinks" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
+        <div class="collapse navbar-collapse" id="navLinks">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1">TICKETS</a>
+            </li>
+          </ul>
+          
         </div>
-    </div>
+      </div>
+    </nav>
+    
+    <section class="container-fluid px-0">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
+            <h1 class="">Museum<span>/</span>of<span>/</span> Candy</h1>
+            <h1 class="">Museum<span>/</span>of<span>/</span> Candy</h1>
+            <h1 class="">Museum<span>/</span>of<span>/</span> Candy</h1>
+            <h1 class="">Museum<span>/</span>of<span>/</span> Candy</h1>
+            <h1 class="">Museum<span>/</span>of<span>/</span> Candy</h1>
+            <h1 class="">Museum<span>/</span>of<span>/</span> Candy</h1>
+            <h1 class="">Museum<span>/</span>of<span>/</span> Candy</h1>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img class="img-fluid" src="imgs/hand2.png" alt="gloved hand holding donut">
+
+        </div>
+      </div>
+
+    </section>
+
+    <section class="container-fluid px-o">
+        <div class="row  align-items-center content">
+          <div class="col-md-6 order-2 order-md-1">
+            <img class="img-fluid" src="imgs/milk.png" alt="milk with donut">
+          </div>
+         <div class="col-md-6 text-center order-1 order-md-2">
+            <div class="row justify-content-center">
+              <div class="col-10 col-lg-8 blurb">
+                <h2>Museum of Candy</h2>
+                <img src="imgs/lolli_icon.png" class="d-none d-lg-inline" alt="lollypop icon">
+                <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto earum quia excepturi numquam cumque deleniti id hic velit harum corporis et quod officiis aperiam placeat nesciunt sapiente, sunt nam voluptas.</p>
+              </div>  
+            </div>
+          </div>
+        </div>
+    </section>
+
+
 
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <!-- don't know if I need JQuery -->
     <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script> -->
-        <!-- using bootstrap v 5.02 -->
+    <!-- using bootstrap v 5.02 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
 
+  </body>
 </html>
