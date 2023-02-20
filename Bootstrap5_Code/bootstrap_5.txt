@@ -1,0 +1,45 @@
+//***************VERSION CONTROL WITH GIT
+make sure you're in the directory you want to save/create repository
+
+git config --global user.name "j kenlon"
+
+git config --global user.email gdt876@aol.com
+
+git add -A		# track all new files and new folders
+
+git status 	# to see what files/folders were added
+
+note: files not to be tracked are in the .gitignore file
+
+git commit -m "Start of test project 2-10-23"	# -m is for message
+
+git status		# to see changes
+
+create a new repository on github.com
+
+follow the commands to push an existing repository from the command line:
+
+git remote add origin git@github.com:jbx3000/rails_test_app.git   # associate this folder with the remote repository
+
+git remote -v	# to test for origin repository link
+
+git branch -M main	# assign a branch
+
+git push -u origin main		# push to repository
+
+ls -al ~/.ssh	# to find any ssh keys 
+
+refresh repository creation page to verify new repository was uploaded
+
+//***************
+//***************LEARN AND PRACTICE HTML & CSS
+//***************
+HTML basics: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
+
+CSS basics: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics
+
+HTML tables: https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables
+
+HTML forms: https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form
+
+Alternate resource to learn HTML and CSS together while building a website: https://learn.shayhowe.com/html-css/
